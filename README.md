@@ -4,8 +4,8 @@ A simple Clojure library that shows how to create Java classes and interfaces.
 
 ## Usage
 
- 1. git clone this
- 1. git clone this
+ 1. git clone https://github.com/markbastian/clojure-makes-java
+ 1. git clone https://github.com/markbastian/java-calls-clojure
  1. cd clojure-makes-java
  1. lein clean
  1. lein install
