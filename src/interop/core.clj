@@ -3,9 +3,9 @@
     :name interop.Demo
     :prefix "-"
     :main false
-    :methods [^:static [bar [] interop.JInterface]
+    :methods [^:static [bar [] interop.api.JInterface]
               ^:static [foo [] interop.api.CInterface]])
-  (:import (interop JInterface)
+  (:import (interop.api JInterface)
            (interop.api CInterface)))
 
 (defn bar []
@@ -28,7 +28,7 @@
   :state state
   :init init
   :main false
-  :implements [interop.JInterface interop.api.CInterface]
+  :implements [interop.api.JInterface interop.api.CInterface]
   :methods [[setInc [int] void]
             [getInc [] int]])
 

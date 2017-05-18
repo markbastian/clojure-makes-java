@@ -1,10 +1,10 @@
-(ns interop.factory-example
+(ns interop.factory
   (:gen-class
     :name interop.FactoryDemo
     :prefix "-"
     :main false
-    :methods [^:static [getInstance [] interop.JInterface]])
-  (:import (interop JInterface)))
+    :methods [^:static [getInstance [] interop.api.JInterface]])
+  (:import (interop.api JInterface)))
 
 (defn -getInstance []
   (reify

@@ -1,4 +1,4 @@
-package interop;
+package interop.api;
 
 import java.util.Collection;
 
