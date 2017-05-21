@@ -10,6 +10,7 @@ A simple Clojure library that shows how to create Java classes and interfaces.
  1. lein clean
  1. lein install
  1. cd ../java-calls-clojure
+ 1. mvn compile
  1. mvn exec:java
 
 You will, of course, probably want to open both of these side-by-side in your
